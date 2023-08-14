@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>KGE Air</title>
+    <!--linking bootstrap-->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="contact.html">
+  </head>
+
+  <body class="bg bg-light ">
+    <main class="container-fluid text-center">
+        <h1 class=" col-sm-8 text-center mb-2">KGE Air Conditioning Co.</h1>
+
+        <nav class="navbar sticky-bottom" style="background-color: rgb(174, 191, 247);">
+            <!--creating navbar, stickytop so when scrolling and reaches the bottom itll stay-->
+                   <div class="container">
+                     <ul>
+                       <li class="nav-item"><!--active link to the home page-->
+                         <a class="nav-link" href="index.html">Home</a>
+                       </li>
+                       <li class="nav-item">
+                         <a class="nav-link active" aria-current="page"  href="contact.html">Contact</a>
+                       </li>
+                     </ul>
+                     <p class="text-sm-end"> (407)-789-2222</p><!--pushed text to the end(right)-->
+                   </div>
+                 </nav><!--end of navbar-->
+
+
+
+                 <div class="container">
+                    <h3 class="mt-4">Submit a form and we'll reach out shortly!</h3>
+                    <form class="container">
+                      <div class="mb-3 col-4 offset-md-4"><!--added offset to push div to the right, increasing  left margin-->
+                        <label class="form-label">First Name</label>
+                        <input type="name" class="form-control"> <!--box to input text-->
+                      </div>
+                      <div class="mb-3 col-4 offset-md-4">
+                        <label class="form-label">Last Name</label>
+                        <input type="lastName" class="form-control">
+                      </div>
+                      <div class="mb-3 col-4 offset-md-4">
+                        <label class="form-label">Email Address</label>
+                        <input type="email" class="form-control">
+                      </div>
+                      <div class="mb-3 col-4 offset-md-4">
+                        <label class="form-label">Phone Number</label>
+                        <input type="phoneNumber" class="form-control">
+                        <button type="submit" class="btn btn-secondary mt-3">Submit</button> <!--submit button-->
+                      </div>
+                    </form>
+                 </div>
+
+
+
+
+                 <footer class="container-fluid mt-7"  style="background-color: rgb(174, 191, 247)" >
+                  <nav class="mt-2">
+                    <h4>&copy; KGE Air Conditioning</h4>
+                      <div class="container">
+                        <ul>
+                          <li class="nav-item list-unstyled"><!--removed styling(bulletpoint)-->
+                            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                          </li>
+                          <li class="nav-item list-unstyled">
+                            <a class="nav-link" href="contact.html">Contact Us</a>
+                          </li>
+                        </ul>
+                      </div>
+                  </nav>
+                </footer>
+
+
+
+
+      <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    </main>
+  </body>
+</html>
